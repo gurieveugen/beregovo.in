@@ -1,0 +1,293 @@
+body{
+	font-family: 'Open sans', serif;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.bg-blue{
+	background: #1d73b3;
+}
+
+.bg-green{
+	background: #3aaa35;
+}
+
+/* HEADER */
+
+header.main .container .banner{
+	text-align: center;
+	margin: 25px 0 0 0;
+}
+
+header.main .container .logo{
+	text-align: center;
+	margin: 40px 0 55px 0;
+}
+
+header.main .container .logo img{
+	width: 300px;
+}
+
+header.main nav{
+	background: #3aaa35;
+	text-align: center;
+}
+
+header.main nav ul li{
+	display: inline-block;
+	margin: 3px 0 4px 80px; 
+}
+
+header.main nav ul li:first-child{
+	margin: 3px 0 4px 0;
+}
+
+header.main nav ul li a{
+	color: white;	
+	font: 18px 'Open sans', serif;
+}
+
+/* SECTION */
+section.main{
+	margin: 60px 0 0 0;
+	overflow: hidden;
+}
+
+section.main .column,
+section.main .column2x{
+	float: left;
+}
+
+section.main .column{
+	width: 300px;
+	margin: 0 0 0 20px;
+}
+
+section.main .column2x{
+	width: 620px;
+}
+
+section.main .column2x .block-text img.featured{
+	width: 100%;
+}
+
+section.main .column2x .block-text h1{
+	font: 32px 'Open sans', serif;
+	font-weight: 600;
+	margin: 30px 0 15px 0;
+}
+
+section.main .column2x .block-text span.date{
+	font: 12px 'Open sans', serif;
+	font-weight: 600;
+	color: #969696;
+	margin: 0 0 20px 0;
+	display: block;
+}
+
+section.main .column2x .block-text .text{
+	font: 14px 'Open sans', serif;
+	color: #969696;
+	white-space: pre-line;
+}
+
+section.main .column:first-child{
+	margin: 0;
+}
+
+section.main .container .block-article{
+	margin: 0 0 22px 0;
+	display: block;
+	float: left;
+}
+
+section.main .container .block-article figure{
+	position: relative;
+	width: 300px;
+	height: 216px;
+}
+
+section.main .container .block-article figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font: 14px 'Open sans', serif;
+	color: white;
+	padding: 5px 13px;
+}
+
+section.main .container .block-article a.title{
+	font: 16px 'Open sans', serif;
+	color: black;
+	margin: 9px 0 14px 0;
+	display: block;
+}
+
+section.main .container .block-article a.all-news{
+	font: 13px 'Open sans', serif;
+	color: #1d73b3;
+	float: right;
+	margin: 37px 0 0 0;
+}
+
+section.main .container .block-article span.description{
+	font: 14px 'Open sans', serif;
+	color: #939393;
+	margin: 0 0 25px 0;
+	display: block;
+}
+
+section.main .container .block-article span.description-black{
+	white-space: pre-line;
+	font: 13px 'Open sans', serif;
+	text-decoration: underline;
+}
+
+section.main .container .block-article i.date{
+	color: #939393;
+	display: block;	
+	font: 12px 'Open sans', serif;
+	font-style: italic;
+}
+
+section.main .container hr{
+	color: #d9d9d9; 
+    background-color: #d9d9d9;
+    border: 0px none;
+    height: 1px; 
+    clear: both; 
+    margin: 0;
+}
+
+section.main .container .block-news h1{
+	font: 23px 'Open sans', serif;
+	color: #1d73b3;
+	margin: 0 0 15px 0;
+}
+
+
+section.main .container .block-news .more{
+	text-align: center;
+}
+
+section.main .container .block-news .more a{
+	color: #1d73b3;
+	font: 13px 'Open sans', serif;
+}
+
+section.main .container .block-news article{
+	display: block;
+	overflow: hidden;
+	margin: 0 0 21px 0;
+}
+
+section.main .container .block-news article img{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+section.main .container .block-news article a.title{
+	color: black;
+	font: 13px 'Open sans', serif;	
+}
+
+section.main .container .block-news.second article a.title{
+	line-height: 25px;
+}
+
+section.main .container .block-tabs{
+	box-sizing: border-box;
+	float: left;
+	margin: 60px 0;
+	padding: 0;
+	width: 300px;
+	overflow: hidden;
+}
+
+section.main .container .block-tabs .tabs,
+section.main .container .block-tabs .links{
+	float: left;
+}
+
+section.main .container .block-tabs .links{
+	border-bottom: 1px solid #1d73b3;
+	width: 100%;
+	position: relative;
+	top: 1px;
+}
+
+section.main .container .block-tabs .links li {
+    display: block;
+    float: left;
+}
+
+section.main .container .block-tabs .links li a {    
+    box-sizing: border-box;
+    color: #1d73b3;
+    display: block;
+    font: 13px 'Open sans', serif;
+    margin: 0 0 -1px;
+    padding: 10px 14px;
+    position: relative;
+    text-decoration: none;
+}
+
+section.main .container .block-tabs .links li a.active {
+    background: #1d73b3;
+    border: 1px solid #1d73b3;
+    color: white;
+}
+
+section.main .container .block-tabs .tabs {
+    border: 1px solid #adadad;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+section.main .container .block-tabs .tabs li {
+    box-sizing: border-box;
+    display: none;
+    float: left;
+    padding: 13px 0 0 0;
+}
+
+section.main .container .block-tabs .tabs li.show {
+    display: block;
+}
+section.main .container .block-tabs .tabs li {
+    text-align: center;
+}
+
+section.main .container .flexslider{
+	margin: 66px 0 0 0;
+}
+
+/* FOOTER */
+footer.main{
+	background: #3aaa35;
+	clear: both;
+	padding: 45px 0;
+	margin: 20px 0 0 0;
+}
+
+footer.main nav{
+	float: right;
+	margin: 10px 0 0 0;
+}
+
+footer.main nav ul li{
+	display: inline-block;
+	margin: 3px 0 4px 50px; 
+}
+
+footer.main nav ul li:first-child{
+	margin: 3px 0 4px 0;
+}
+
+footer.main nav ul li a{
+	color: white;	
+	font: 14px 'Open sans', serif;
+}
