@@ -88,6 +88,72 @@ section.main .column2x .block-text span.date{
 	display: block;
 }
 
+section.main .container .column2x h1{
+	font: 32px 'Open sans', serif;
+	font-weight: 600;
+	margin: 0 0 15px 0;
+}
+
+
+section.main .container .column2x ul.pagination{
+	width: 100%;
+	float: left;
+	display: block;
+	text-align: center;
+	list-style: none;
+	margin: 15px 0 30px 0;
+}
+
+section.main .container .column2x ul.pagination li{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+section.main .container .column2x ul.pagination li a{
+	color: #b1b1b1;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+section.main .container .column2x ul.pagination li a:hover{
+	text-decoration: none;
+	background: #b1b1b1;
+	color: #ffffff;
+}
+
+section.main .container .column2x ul.pagination li a.active{
+	background: #b1b1b1;
+	color: #ffffff;
+}
+
+section.main .container .column2x .short-news{
+	border-bottom: 1px solid #BEBEBE;
+	display: block;
+	float: left;
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	width: 100%;
+}
+
+section.main .container .column2x .short-news a{
+	color: #222222;
+	padding: 0 0 5px 0;
+	text-decoration: none;
+	display: block;	
+}
+
+section.main .container .column2x .short-news .img-block{
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+section.main .container .column2x .short-news .text-block .text{
+	font-size: 13px;
+}
+
 section.main .column2x .block-text .text{
 	font: 14px 'Open sans', serif;
 	color: #969696;
@@ -265,6 +331,8 @@ section.main .container .flexslider{
 	margin: 66px 0 0 0;
 }
 
+
+
 /* FOOTER */
 footer.main{
 	background: #3aaa35;
@@ -291,3 +359,4 @@ footer.main nav ul li a{
 	color: white;	
 	font: 14px 'Open sans', serif;
 }
+
